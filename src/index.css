@@ -11,6 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Style for the header link */
+.header-link {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.header-link:hover {
+  text-decoration: none; /* Add underline on hover for better UX */
+}
 
 /* Background image styles */
 .background {
@@ -37,8 +46,14 @@ code {
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #a7a3a3;
   padding: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.gallery-item:hover {
+  transform: translateY(-10px); /* Moves the item slightly up */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow on hover */
 }
 
 .gallery-item img {

@@ -65,7 +65,7 @@ const images = [
 ];
 const Header = () => (
   <header className="header">
-    <h1>Image Gallery</h1>
+    <h1><a href='/' className='header-link'> Image Gallery</a></h1>
     <p>Explore the beauty of Islamic architecture around the world</p>
   </header>
 );
