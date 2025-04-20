@@ -75,7 +75,7 @@ const Header = () => (
 
 const Footer = () => (
   <footer className="footer">
-    <p>&copy; 2025 Image Gallery. All rights reserved.</p>
+    <p>&copy; Made with love by Bilal Ahmed.</p>
   </footer>
 );
 
