@@ -80,7 +80,29 @@ code {
   font-size: 0.9rem;
   color: #666;
 }
+.image-fullscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 
+.image-fullscreen img {
+  max-width: 90%;
+  max-height: 80vh;
+  margin-bottom: 20px;
+}
+
+.image-fullscreen h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-fullscreen p {
+  font-size: 18px;
+  text-align: center;
+}
 /* Header styles */
 .header {
   background-color: #333;
